@@ -6,10 +6,27 @@
     <link rel="stylesheet" href="INDEXTANK.css">
 </head>
 <body class="game-zone">
-<div class="info">
-    <span class="player-name">Имя игрока: <span class="inner-name"></span></span>
-    <span class="points">Очки: <span class="inner-points">0</span></span>
+<div class="panel">
+    <div class="info">
+        <span class="player-name">Имя игрока: <span class="inner-name"></span></span>
+        <span class="points">Очки: <span class="inner-points">0</span></span>
+        <span class="level">Уровень сложности: <span class="level-inner"></span></span>
+    </div>
+    </div>
+    <div class="life">
+
+    </div>
 </div>
+
+<div class="game-over">
+    <div class="game-over-info">
+        <span>Игра Закончена</span>
+        <a href="#" onclick="game()">Перезапустить игру</a>
+    </div>
+    <div class="blur"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="INDEXTANK.js"></script>
 </body>
 </html>
